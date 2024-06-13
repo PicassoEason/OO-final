@@ -1,0 +1,302 @@
+{
+	"Questions":[
+		{
+			"question": "1. Which is true?",
+			"images": [
+			  "./images/image1.png",
+			  "./images/image2.png"
+			],
+			"answer": "The program prints t1 : 1 : t2 : 1: t1 : 2 : t2 : 2 : in random order." ,
+			"options": [
+			  "The program prints t1 : 1 : t2 : 1: t1 : 2 : t2 : 2 : in random order.",
+			  "The program prints t1 : 1 : t2 : 1: t1 : 2 : t2 : 2 :",
+			  "The program prints t1 : 1 : t2 : 1: t1 : 1 : t2 : 1 : indefinitely.",
+			  "The program prints an exception."
+			]
+		  },
+		  {
+			"question": "2. Which statement is true?",
+			"images": [
+			  "./images/00.png"
+			],
+			"answer": "A thread in waiting state must handle InterruptedException." ,
+			"options": [
+				"IllegalStateException is thrown if a thread in waiting state is moved back to runnable.",
+				"A thread in waiting state consumes CPU cycles.",
+				"After the timed wait expires, the waited thread moves to the terminated state.",
+				"A thread in waiting state must handle InterruptedException."
+			]
+		  },
+		  {
+			"question": "3. Daylight Saving Time (DST) is the practice of advancing clocks at the start of spring by one hour and adjusting them backward by one hour in autumn. Considering that in 2021, DST in Chicago (Illinois) ended on November 7th at 2 AM, and given the fragment: [image] What is the output?",
+			"images": [
+			  "./images/image3.png"
+			],
+			"answer": "true、false" ,
+			"options": [
+				"true 、true",
+				"false、true",
+				"true、false",
+				"false、false"
+			]
+		  },
+		  {
+			"question": "4. Given the code fragment: [image] What is the result?",
+			"images": [
+			  "./images/image4.png"
+			],
+			"answer": "Can't logout" ,
+			"options": [
+			  "Can't logout",
+			  "Can't logout",
+			  "A compilation error occurs at line n1.",
+			  "Logged out at: 2021-01-12T21:58:19.880z"
+			]
+		  },
+		  {
+			"question": "5. Given the code fragment: [image] What is the result? ",
+			"images": [
+			  "./images/image5.png"
+			],
+			"answer": "PT5SPT1MP6D" ,
+			"options": [
+			  "PT5000SPT60MP6D",
+			  "PT5SPT1MP6D",
+			  "5S1M6D",
+			  "5000S60M6D"
+			]
+		  },
+		  {
+			"question": "6. Given the code fragment: [image]  What is the result?Which action enables the code to compile?",
+			"images": [
+			  "./images/image6.png"
+			],
+			"answer": "Make the regNo variable static." ,
+			"options": [
+			  "Replace record with void.",
+			  "Replace record with class.",
+			  "Remove the regNo initialization statement.",
+			  "Make the regNo variable public.",
+			  "Make the regNo variable static."
+			]
+		  },
+		  {
+			"question": "7. Given: [im]",
+			"images": [
+			  "./images/image7.png"
+			],
+			"answer": "0 SNOWY" ,
+			"options": [
+			  "0 CLOUDY",
+			  "1 SNOWY",
+			  "0 SNOWY",
+			  "1 RAINY",
+			  "Compilation fails"
+			]
+		  },
+		  {
+			"question": "8. Given the code fragment: [image] What is the result?",
+			"images": [
+			  "./images/image8.png"
+			],
+			"answer": "false true true Optional[NewYear]" ,
+			"options": [
+			  "0 1 1 0",
+			  "false true true Optional[NewYear]",
+			  "0 1 0 Optional[NewYear]",
+			  " true true false NewYear"
+			]
+		  },
+		  {
+			"question": "9. Given: [image] Which statement is true while the program prints GC?",
+			"images": [
+			  "./images/image9.png"
+			],
+			"answer": "Only one of the objects previously referenced by t1 is eligible for garbage collection." ,
+			"options": [
+			  "Both the objects previously referenced by t1 are eligible for garbage collection.",
+			  "None of the objects are eligible for garbage collection.",
+			  "Only the object referenced by t2 is eligible for garbage collection.",
+			  "Only one of the objects previously referenced by t1 is eligible for garbage collection."
+			]
+		  },
+		  {
+			"question": "10. Given: [image] What is the result?",
+			"images": [
+			  "./images/image10.png"
+			],
+			"answer": "hello" ,
+			"options": [
+			  "Compilation fails.",
+			  "there",
+			  "hello",
+			  "A NumberFormatException is thrown."
+			]
+		  },
+		  {
+			"question": "11. Given the code fragment: [image] Which set of class definitions compiles?",
+			"images": [
+			  "./images/image11.png"
+			],
+			"answer": "non-sealed interface Story extends SInt {} class Art implements SInt {}" ,
+			"options": [
+			  "interface Story extends SInt {} interface Art extends SInt {}",
+			  "public interface Story extends SInt {} public interface Art extends SInt {}",
+			  "sealed interface Story extends SInt {} non-sealed class Art implements SInt {}",
+			  "non-sealed interface Story extends SInt {} non-sealed interface Art extends SInt {}",
+			  "non-sealed interface Story extends SInt {} class Art implements SInt {}"
+			]
+		  },		  {
+			"question": "12. Given: [image] What is the result?",
+			"images": [
+			  "./images/image12.png"
+			],
+			"answer": "mB mC" ,
+			"options": [
+			  "mA",
+			  "mB mA",
+			  "mB",
+			  "mB mC"
+			]
+		  },
+		  {
+			"question": "13. Given the code fragment: [image] What is the result?",
+			"images": [
+			  "./images/image13.png"
+			],
+			"answer": "ABCDE // the order of elements is unpredictable" ,
+			"options": [
+			  "ABBCDE // the order of elements is unpredictable",
+			  "ABCDE",
+			  "ABCDE // the order of elements is unpredictable",
+			  "ADEABCB // the order of elements is unpredictable"
+			]
+		  },
+		  {
+			"question": "14. Given: [image] What is the result?",
+			"images": [
+			  "./images/image14.png"
+			],
+			"answer": "{bicycle=1, car=3, motorcycle=1, truck=2}" ,
+			"options": [
+			  "{bicycle=7, car=7, motorcycle=7, truck=7}",
+			  "{3:bicycle, 0:car, 6:motorcycle, 5:truck}",
+			  "Compilation fails.",
+			  "{bicycle=1, car=3, motorcycle=1, truck=2}",
+			  "{bicycle, car, motorcycle, truck}"
+			]
+		  },
+		  {
+			"question": "15. Which statement is true about modules?",
+			"images": [
+			  "./images/00.png"
+			],
+			"answer": "Automatic and named modules are on the module path." ,
+			"options": [
+			  "Only unnamed modules are on the module path.",
+			  "Automatic and named modules are on the module path.",
+			  "Only automatic modules are on the module path.",
+			  "Only named modules are on the module path.",
+			  "Automatic and unnamed modules are on the module path."
+			]
+		  },
+		  {
+			"question": "16. Given the code fragment: [image] Which code at line n1, obtains the java.io.Console object?",
+			"images": [
+			  "./images/image15.png"
+			],
+			"answer": "Console console = System.console();" ,
+			"options": [
+			  "Console console = Console.getInstance();",
+			  "Console console = System.console();",
+			  "Console console = new Console(System.in);",
+			  "Console console = new Console(new InputStreamReader(System.in));",
+			  "Console console = System.console(System.in);"
+			]
+		  },
+		  {
+			"question": "17. Given the content of the in.txt file: 【 0123456789 】 and the code fragment: [image] What is the recontent of the out.txt file?",
+			"images": [
+			  "./images/image16.png"
+			],
+			"answer": "01234567801234" ,
+			"options": [
+			  "012345678",
+			  "01234567801234",
+			  "01234567",
+			  "0123456789",
+			  "0123456789"
+			]
+		  },
+		  {
+			"question": "18. Given the code fragment: [image] What is the result?",
+			"images": [
+			  "./images/image17.png"
+			],
+			"answer": "true:false:true:true" ,
+			"options": [
+			  "true:true:false:false",
+			  "true:false:true:false",
+			  "true:false:true:true",
+			  "true:false:false:false"
+			]
+		  },
+		  {
+			"question": "19. Given the code fragment: [image] What is the result?",
+			"images": [
+			  "./images/image18.png"
+			],
+			"answer": "7107" ,
+			"options": [
+			  "888",
+			  "7107",
+			  "777",
+			  "71010",
+			  "81111"
+			]
+		  },
+		  {
+			"question": "20. Given: [image] What is the result?",
+			"images": [
+			  "./images/image19.png"
+			],
+			"answer": "4" ,
+			"options": [
+			  "4",
+			  "2",
+			  "6",
+			  "Compilation fails.",
+			  "A runtime exception is thrown.",
+			  "Nothing is printed because of an indefinite loop.",
+			  "5",
+			  "3"
+			]
+		  },		  {
+			"question": "21. Given the code fragment: [image] What is the result?",
+			"images": [
+			  "./images/image20.png"
+			],
+			"answer": "Range1" ,
+			"options": [
+			  "Range1- Range2- Range3- Range1- Not a valid rank.",
+			  "Range1- Not a valid rank.",
+			  "Range1- Range2- Range3-",
+			  "Range1"
+			]
+		  },
+		  {
+			"question": "22. Given the code fragment: List<Integer> listOfNumbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10); Which code fragment returns different values?",
+			"images": [
+			  "./images/00.png"
+			],
+			"answer": " " ,
+			"options": [
+			  "int sum = listOfNumbers.stream().reduce(0, Integer::sum) + 5;",
+			  "int sum = listOfNumbers.parallelStream().reduce(0, Integer::sum) + 5 ;",
+			  "int sum = listOfNumbers.parallelStream().reduce((m, n) -> m + n).orElse(5) + 5;",
+			  "int sum = listOfNumbers.parallelStream().reduce(5, Integer::sum);",
+			  "int sum = listOfNumbers.stream().reduce(5, (a, b) -> a+ b);"
+			]
+		  }
+	]
+}
